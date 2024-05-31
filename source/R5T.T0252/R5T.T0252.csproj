@@ -12,4 +12,11 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/SafetyCone/R5T.T0252.git</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Code\Strong Types\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.T0132\source\R5T.T0132\R5T.T0132.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0179\source\R5T.T0179\R5T.T0179.csproj" />
+  </ItemGroup>
 </Project>
